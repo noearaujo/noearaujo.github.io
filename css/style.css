@@ -845,12 +845,15 @@ button {
 }
 /* --------------------------- /////////// X. FOOTER /////////// --------------------------- */
 #footer {
+    clear: both;
+    background: #0c0c0d;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    min-height: 70px;
-    height: auto;
-    background: #070707;
-    border-top: 2px solid #E48632;
-    padding: 20px 0 0 0;
+    height: 275px;
 }
 .social-links {
     float: center;
