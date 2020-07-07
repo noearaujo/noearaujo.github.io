@@ -853,7 +853,7 @@ button {
     padding: 20px 0 0 0;
 }
 .social-links {
-    float: right;
+    float: center;
 }
 .social-links li {
     display: inline;
@@ -869,7 +869,7 @@ button {
     color: #E48632;
 }
 #copyright {
-    float: left;
+    float: center;
 }
 /* --------------------------- /////////// XI. 404 PAGE /////////// --------------------------- */
 #container-404 {
