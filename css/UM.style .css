@@ -1,0 +1,39 @@
+.menu-fixo {
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	transition: all .5s;
+}
+.menu-fixo a {
+	padding: 20px 20px !important;
+	transition: all .5s;
+}
+
+.menu-noFixo {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 100px;
+	z-index: 1030;	
+{
+.absolute-top {
+    	position: absolute;
+    	top: 0;
+    	right: 0;
+    	left: 0;
+    	z-index: 1030;
+}
+.absolute-menu {
+    	position: absolute;
+    	top: 625px;
+    	right: 0;
+    	left: 0;
+    	z-index: 1031;
+    	text-align: center;
+}
+.navbar-dark-2 {
+    	background-color: rgba(0,0,0,0);
+   	border: 1px solid rgba(0,0,0,0);
+    	z-index: 900;
+}
