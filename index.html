@@ -1,12 +1,11 @@
+﻿<!-- meta tags and other links -->
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from www.atypicalthemes.com/portfolio/strider_demo/pages/StriderDark/Video/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Jul 2020 23:07:46 GMT -->
 <head>
     <!-- META TAGS -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="author" content="Noé Araújo">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="https://r13b.com" />
 
     <!-- WEBSITE TITLE & DESCRIPTION -->
@@ -38,798 +37,489 @@
     <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/ico" sizes="32x32" href="images/favicon/favicon.ico">
 
-    <!-- STYLES -->
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- FontAwesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- Animations -->
-    <link href="css/animations.css" rel="stylesheet">
-    <!-- Lightbox -->
-    <link href="css/lightbox.min.css" rel="stylesheet">
-    <!-- Video Lightbox -->
-    <link href="css/modal-video.min.css" rel="stylesheet">
-    <!-- Main Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-  
-</head>
-<body>
-    <!-- //// HEADER //// -->
-    <header id="main-header">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-            <div class="container">
-                <!-- Site Logo -->
-                <a id="logo" class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.png" alt="site logo"></a>
-                <!-- Dropdown Button -->
-                <button id="hamburger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                </button>
-                <!-- Navigation Links -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#games">Games</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#team">Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#careers">Careers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header><!-- Header End -->
-    
-    <!-- /// HERO SECTION /// -->
-    <div id="hero-section" class="medium-margin">
-        <div class="row hero-unit">
-            <div class="hero-overlay"></div>
-            <video autoplay loop muted poster="images/poster.jpg" id="bgvid" class="img-fluid">
-                <source src="images/bg-vid.mp4" type="video/mp4"><!-- your video goes here -->
-            </video>
-             <div class="hero-caption">
-                <h1>WE MAKE <span class="colored">AWESOME</span> GAMES</h1>
-            </div>
-        </div>
-    </div><!-- Hero Section End -->
-    
-    <!-- /// Main Container /// -->
-    <div class="container">
-        <!-- /// ABOUT SECTION /// -->
-        <div id="about" class="large-margin">
-            <a href="about.html"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">ABOUT <span class="colored">US</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <p class="small-margin">We are a dedicated team of developers, designers, artists, programmers, and most importantly gaming enthusiasts. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae ante pharetra, molestie nunc non, interdum ipsum.</p>
-                    <img id="awards" src="images/awards.png" class="img-fluid" alt="awads">
-                </div>
-                <div class="col-md-6">
-                    <img id="support-image" src="images/placeholder.jpg" data-src="images/digital_collage.png" class="img-fluid b-lazy" alt="digital collage">
-                </div>
-            </div>
-        </div>
-        <!-- /// GAMES SECTION /// -->
-        <div id="games" class="large-margin">
-            <a href="games.html"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">OUR <span class="colored">GAMES</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="row ">
-                <div class="col-md-11 small-margin">
-                   <p>Here at Strider games we pride ourselves in delivering rich and polished experiences that our fanbase can enjoy and immerse themselve into. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh.</p>
-                </div>
-                <div class="col-md-12">
-                    <ul class="game-tags">
-                        <li>Sort By Tag :</li>
-                        <li><a href="#" data-filter=".new">NEW</a></li>
-                        <li><a href="#" data-filter="*">ALL</a></li>
-                        <li><a href="#" data-filter=".pc">PC</a></li>
-                        <li><a href="#" data-filter=".mobile">MOBILE</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="games-portfolio ">
-                <!-- Game Card Video -->
-                <div class="row game-card pc new">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
-                            <div class="overlay">
-                                <i class="fa fa-play fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/game3.jpg" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
-                        </a>
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">SWORDS &amp; SCLAES - DRAGON RISING</h2>
-                        <p class="tags"><span class="subtle">Action RPG | PC</span> </p>
-                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
-                        <div class="steam-btn">
-                            <a href="#">
-                                <i class="fa fa-steam fa-3x"></i>
-                                <p>GET IT ON <br><span class="spaced">STEAM</span></p>
-                            </a>
-                        </div>
-                        <div class="reviews">
-                            <a href="#"><div class="score-card">
-                                <p class="score">8.0</p>
-                                <p>Gamespot</p>
-                            </div></a>
-                            <a href="#"><div class="score-card">
-                                <p class="score">7.9</p>
-                                <p>IGN</p>
-                            </div></a>
-                            <a href="#"><div class="score-card">
-                                <p class="score">86</p>
-                                <p>Metacritic</p>
-                            </div></a>
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                               <div class="modal-body">
-                                   <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
-                                   <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
-                                   <img class="img-fluid" src="images/game3.1.jpg" alt="screenshot">
-                                   <br>
-                                   <h2 class="short-hr-left">MAKE FRIENDS</h2>
-                                   <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
-                                   <img class="img-fluid" src="images/game3.2.jpg" alt="screenshot">
-                                   <br>
-                                   <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
-                                   <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                </div><!-- Game Card End -->
-                
-                <!-- Game Card Video -->
-                <div class="row game-card mobile new">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="#" class="js-video-button" data-video-id='285232623' data-channel="vimeo"> <!-- Video link goes here -->
-                            <div class="overlay">
-                                <i class="fa fa-play fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/game4.jpg" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
-                        </a>
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">BEDLAMBORNE</h2>
-                        <p class="tags"><span class="subtle">Horror Adventure | Mobile</span> </p>
-                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2">Read More</span></p>
-                        <a href="#" class="button-store">
-                            <i class="fa fa-android fa-2x"></i>
-                            <p>Available on<br><span class="strong">Google Play</span></p>
-                        </a>
-                        <a href="#" class="button-store">
-                            <i class="fa fa-apple fa-2x"></i>
-                            <p>Available on<br><span class="strong">Apple Store</span></p>
-                       </a>
-                        <div class="rating">
-                            <p class="strong">4.5</p>
-                            <ul>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade game-modal" id="game2" tabindex="-1" role="dialog" aria-labelledby="bedlam" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title" id="bedlam">BEDLAMBORNE</h1>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                               <div class="modal-body">
-                                   <h2 class="short-hr-left">A DARK WORLD</h2>
-                                   <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
-                                   <img class="img-fluid" src="images/game4.1.jpg" alt="screenshot">
-                                   <br>
-                                   <h2 class="short-hr-left">ENGAGING STORY</h2>
-                                   <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
-                                   <img class="img-fluid" src="images/game4.2.jpg" alt="screenshot">
-                                   <br>
-                                   <h2 class="short-hr-left">INTERESTING CHARACTERS</h2>
-                                   <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                </div><!-- Game Card End -->
-                
-                <!-- Game Card -->
-                <div class="row game-card pc">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="images/game1_large.jpg" data-lightbox="screenshots_aurora">
-                            <div class="overlay">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                            <picture>
-                                <source media="(min-width: 1200px)" srcset="images/game1.jpg">
-                                <source media="(min-width: 768px)" srcset="images/game1_large.jpg">
-                                <img src="images/placeholder.jpg" data-src="images/game1.jpg" class="img-fluid b-lazy" alt="aurora image">
-                            </picture>
-                        </a>
-                        <a href="images/game1.1.jpg" data-lightbox="screenshots_aurora"></a>
-                        <a href="images/game1.2.jpg" data-lightbox="screenshots_aurora"></a>
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">AURORA AWAKENING</h2>
-                        <p class="tags"><span class="subtle">Action RPG | PC</span> </p>
-                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
-                        <div class="steam-btn">
-                            <a href="#">
-                                <i class="fa fa-steam fa-3x"></i>
-                                <p>GET IT ON <br><span class="spaced">STEAM</span></p>
-                            </a>
-                        </div>
-                        <div class="reviews">
-                            <a href="#"><div class="score-card">
-                                <p class="score">8.5</p>
-                                <p>Gamespot</p>
-                            </div></a>
-                            <a href="#"><div class="score-card">
-                                <p class="score">8.1</p>
-                                <p>IGN</p>
-                            </div></a>
-                            <a href="#"><div class="score-card">
-                                <p class="score">83</p>
-                                <p>Metacritic</p>
-                            </div></a>
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade game-modal" id="game3" tabindex="-1" role="dialog" aria-labelledby="aurora" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title" id="aurora">AURORA AWAKENING</h1>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                               <div class="modal-body">
-                                   <iframe class="modal-vid" src="https://www.youtube.com/embed/DPBW_MFqeRs?rel=0&amp;showinfo=0" allowfullscreen></iframe>
-                                   <h2 class="short-hr-left">EXPLORE AN EXPANSIVE WORLD</h2>
-                                   <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
-                                   <img class="img-fluid" src="images/game1.1.jpg" alt="screenshot">
-                                   <br>
-                                   <h2 class="short-hr-left">ADAPT AND DEVELOP YOUR CHARACTER</h2>
-                                   <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
-                                   <img class="img-fluid" src="images/game1.2.jpg" alt="screenshot">
-                                   <br>
-                                   <h2 class="short-hr-left">GET IMMERSED IN A DEEP STORY</h2>
-                                   <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                </div><!-- Game Card End -->
-                
-                <!-- Game Card -->
-                <div class="row game-card mobile">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="images/game2_large.jpg" data-lightbox="screenshots_dark">
-                            <div class="overlay">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                            <picture>
-                                <source media="(min-width: 1200px)" srcset="images/game2.jpg">
-                                <source media="(min-width: 768px)" srcset="images/game2_large.jpg">
-                                <img src="images/placeholder.jpg" data-src="images/game2.jpg" class="img-fluid b-lazy" alt="aurora image">
-                            </picture>
-                        </a>
-                        <a href="images/game2.1.jpg" data-lightbox="screenshots_dark"></a>
-                        <a href="images/game2.2.jpg" data-lightbox="screenshots_dark"></a>
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">ECHO - DARK ADVENTURES</h2>
-                        <p class="tags"><span class="subtle">Adventure | Mobile</span></p>
-                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2">Read More</span></p>
-                        <a href="#" class="button-store">
-                            <i class="fa fa-android fa-2x"></i>
-                            <p>Available on<br><span class="strong">Google Play</span></p>
-                        </a>
-                        <a href="#" class="button-store">
-                            <i class="fa fa-apple fa-2x"></i>
-                            <p>Available on<br><span class="strong">Apple Store</span></p>
-                       </a>
-                        <div class="rating">
-                            <p class="strong">4.1</p>
-                            <ul>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade game-modal" id="game4" tabindex="-1" role="dialog" aria-labelledby="echo" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title" id="echo">ECHO - DARK ADVENTURES</h1>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                               <div class="modal-body">
-                                   <iframe class="modal-vid" src="https://www.youtube.com/embed/73vSguCeJl0?rel=0&amp;showinfo=0" allowfullscreen></iframe>
-                                   <h2 class="short-hr-left">EXPLORE AN EXPANSIVE WORLD</h2>
-                                   <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
-                                   <img class="img-fluid" src="images/game2.1.jpg" alt="screenshot">
-                                   <br>
-                                   <h2 class="short-hr-left">GET IMMERSED IN A FANTASTIC STORY</h2>
-                                   <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
-                                   <img class="img-fluid" src="images/game2.2.jpg" alt="screenshot">
-                                   <br>
-                                   <h2 class="short-hr-left">ADAPT AND DEVELOP YOUR CHARACTER</h2>
-                                   <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- Game Card End -->
-            </div>
-        </div>
-        <!-- /// TEAM SECTION /// -->
-        <div id="team" class="large-margin">
-            <a href="team.html"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">THE <span class="colored">TEAM</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="row medium-margin">
-                <div class="col-md-11 tiny-margin">
-                    <p>Our passion unites us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt mi ut mauris varius, vitae lobortis erat ullamcorper. Pellentesque vel dolor non nisi fringilla scelerisque in non ante.</p>
-                </div>
-                <div id="full-row" class="row text-center">
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="images/team1.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
-                        </figure>
-                        <p class="team-name">Vladimir M.</p>
-                        <p class="subtle">Lead Designer</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="images/team2.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
-                        </figure>
-                        <p class="team-name">Asimov R.</p>
-                        <p class="subtle">Founder</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="images/team3.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
-                        </figure>
-                        <p class="team-name">Natalia I.</p>
-                        <p class="subtle">Lead Artist</p>
-                    </div>
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="images/team4.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
-                        </figure>
-                        <p class="team-name">Dimitri A.</p>
-                        <p class="subtle">Programmer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row tiny-margin">
-                <div class="col-md-11">
-                    <h2 class="short-hr-left">OUR STUDIO</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p>
-                </div>
-            </div>
-            <div class="grid-gallery">
-                <div class="row">
-                    <div class="col-md-4 gallery-item">
-                        <a href="images/img1.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img1.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-item">
-                        <a href="images/img2.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img2.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-item">
-                        <a href="images/img3.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img3.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 gallery-item">
-                        <a href="images/img4.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img4.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-item">
-                        <a href="images/img5.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img5.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-item">
-                        <a href="images/img6.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img6.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /// CAREERS SECTION /// -->
-        <div id="careers" class='large-margin'>
-            <a href="careers.html"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">WE'RE <span class="colored">HIRING</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="row medium-margin">
-                <div class="col-md-11">
-                    <h2 class="short-hr-left">JOB OPENINGS</h2>
-                    <p>Are you a talented and motivated individual? Then we would love to have you in our team. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p><br>
-                </div>
-                <div class="col-md-4">
-                    <div class="job-card">
-                        <h3 class="colored">LEAD PROGRAMMER</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <button class="button" data-toggle="modal" data-target="#modal1">View Details</button>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="lead-programmer" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title colored" id="lead-programmer">LEAD PROGRAMMER</h2>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <h3>THE IDEAL CANDIDATE:</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p>
-                                    <ul class="skill-list">
-                                        <li>C++</li>
-                                        <li>Dream Weaver</li>
-                                        <li>Unreal Engine</li>
-                                        <li>Blender</li>
-                                        <li>Scale Form</li>
-                                    </ul>
-                                    <br>
-                                    <h3>REQUIREMENTS:</h3>
-                                    <ul>
-                                    <li><p>B.Sc. in Computer Science and/or Mathematics</p></li>
-                                    <li><p>Proficient with c++ and object-oriented programming</p></li>
-                                    <li><p>Development experience in the games industry a plus.</p></li>
-                                    <li><p>Strong communication and organizational skills</p></li>
-                                    <li><p>Must work well under pressure and handle multiple tasks</p></li>
-                                    <li><p>Passion for making GREAT games</p></li>
-                                    </ul>
-                                    <br>
-                                    <h3>HOW TO APPLY:</h3>
-                                    <p>If you think you have what it takes to join our team you an apply here <a href="mailto:office@example.com" >office@example.com</a></p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                    <a href="mailto:office@example.com" class="button">Apply</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="job-card">
-                        <h3 class="colored">LEVEL DESIGNER</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <button class="button" data-toggle="modal" data-target="#modal2">View Details</button>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade " id="modal2" tabindex="-1" role="dialog" aria-labelledby="level-designer" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title colored" id="level-designer">LEVEL DESIGNER</h2>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <h3>THE IDEAL CANDIDATE:</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p>
-                                    <ul class="skill-list">
-                                        <li>C++</li>
-                                        <li>Dream Weaver</li>
-                                        <li>Unreal Engine</li>
-                                        <li>Blender</li>
-                                        <li>Scale Form</li>
-                                    </ul>
-                                    <br>
-                                    <h3>REQUIREMENTS:</h3>
-                                    <ul>
-                                    <li><p>B.Sc. in Computer Science and/or Mathematics</p></li>
-                                    <li><p>Proficient with c++ and object-oriented programming</p></li>
-                                    <li><p>Development experience in the games industry a plus.</p></li>
-                                    <li><p>Strong communication and organizational skills</p></li>
-                                    <li><p>Must work well under pressure and handle multiple tasks</p></li>
-                                    <li><p>Passion for making GREAT games</p></li>
-                                    </ul>
-                                    <br>
-                                    <h3>HOW TO APPLY:</h3>
-                                    <p>If you think you have what it takes to join our team you an apply here <a href="mailto:office@example.com" >office@example.com</a></p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                    <a href="mailto:office@example.com" class="button">Apply</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="job-card">
-                        <h3 class="colored">AI ENGINEER</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <button class="button" data-toggle="modal" data-target="#modal3">View Details</button>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade " id="modal3" tabindex="-1" role="dialog" aria-labelledby="ai-engineer" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title colored" id="ai-engineer">AI ENGINEER</h2>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                               <div class="modal-body">
-                                    <h3>THE IDEAL CANDIDATE:</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p>
-                                    <ul class="skill-list">
-                                        <li>C++</li>
-                                        <li>Dream Weaver</li>
-                                        <li>Unreal Engine</li>
-                                        <li>Blender</li>
-                                        <li>Scale Form</li>
-                                    </ul>
-                                    <br>
-                                    <h3>REQUIREMENTS:</h3>
-                                    <ul>
-                                    <li><p>B.Sc. in Computer Science and/or Mathematics</p></li>
-                                    <li><p>Proficient with c++ and object-oriented programming</p></li>
-                                    <li><p>Development experience in the games industry a plus.</p></li>
-                                    <li><p>Strong communication and organizational skills</p></li>
-                                    <li><p>Must work well under pressure and handle multiple tasks</p></li>
-                                    <li><p>Passion for making GREAT games</p></li>
-                                    </ul>
-                                    <br>
-                                    <h3>HOW TO APPLY:</h3>
-                                    <p>If you think you have what it takes to join our team you an apply here <a href="mailto:office@example.com" >office@example.com</a></p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                    <a href="mailto:office@example.com" class="button">Apply</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2 class="short-hr-center">OUR NEWSLETTER</h2>
-                    <p>Stay up to date with the team and our products by subscribing to our newsletter.</p>
-                    <form id="newsletter" data-toggle="validator">
-                        <input type="email" id="emailsign" placeholder="Your email adress"> <!-- Email Field -->
-                        <button type="submit" id="form-signup" class="button">SUBSCRIBE</button>
-                        <div id="msgSignup" class="h3 text-center hidden"></div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <!-- /// CONTACT SECTION /// -->
-        <div id="contact" class="large-margin">
-            <a href="contact.html"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">GET IN <span class="colored">TOUCH</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="">
-                <div class="row small-margin">
-                    <div class="col-md-11">
-                        <p>We would love to hear from you. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra laoreet dolor sit amet blandit. Ut suscipit nisl ut risus volutpat malesuada.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="short-hr-left">LEAVE US A MESSAGE</h2>
-                        <form id="contactForm" data-toggle="validator">
-                            <div class="form-group">
-                                <!-- Name Field -->
-                                <input type="text" id="name" placeholder="Name*" required size="35" data-error="Name is required">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email Field -->
-                                <input type="email" id="email" placeholder="Email*" required size="35" data-error="Email is required">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Message Field -->
-                                <textarea id="message" name="message" placeholder="Message*" required data-error="Message cannot be empty"></textarea>
-                                <p class="subtle">* required field</p>
-                                <div class="help-block with-errors"></div>
-                                <!-- Submit Button -->
-                                <button type="submit" class="button">SEND MESSAGE</button>
-                                <!-- Success Message -->
-                                <div id="msgSubmit" class="text-center hidden"></div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="short-hr-left">OUR DETAILS</h2>
-                        <div id="contact-info">
-                            <ul>
-                                <li><i class="fa fa-phone"></i><p>Phone: <span class="colored"><a href="tel:+1(803)635585">+1 (803) 635 585</a></span></p></li>
-                                <li><i class="fa fa-envelope"></i><p>Email: <span class="colored"><a href="mailto:office@example.com">office@example.com</a></span></p></li>
-                                <li><i class="fa fa-globe"></i><p>Website: <span class="colored"><a href="www.atypicalthemes.html" target="_blank">www.atypicalthemes.com</a></span></p></li>
-                                <li><i class="fa fa-map-marker"></i><p>Address: <span class="colored">1168 12th Street East Oconomowoc, WI 53066</span></p></li>
-                            </ul>
-                        </div>
-                        <!-- Google Map -->
-                        <div id="map-canvas"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- Main Container End -->
-    <!-- /// FOOTER /// -->
-    <footer id="main-footer">
-        <div id="footer"> 
-            <div class="container">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <ul class="social-links"> <!-- Social Media Icons -->
-                            <li><a href="https://www.facebook.com/R13BGames"><i class="fa fa-facebook fa-lg icon-social"></i></a></li>
-                            <li><a href="https://twitter.com/R13BGames"><i class="fa fa-twitter  fa-lg icon-social"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/r13b"><i class="fa fa-linkedin fa-lg icon-social"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram fa-lg icon-social"></i></a></li>
-                        </ul>
-                        <div class="copyright">
-                             &copy; 2019-<span id="year"></span> R13B. All rights reserved.
-                        </div><!-- Copyright Text -->
-                    </div>
-            </div><!-- Container End -->
-        </div>
-    </footer><!-- Footer End -->
-    
-    <!-- //// SCRIPTS //// -->
-    <script src="js/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/blazy.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/lightbox-plus-jquery.min.js"></script>
-    <script src="js/jquery-modal-video.min.js"></script>
-    <script src="js/validator.min.js"></script>
-    <script src="js/strider.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG24yUnfwQh0IdfLdpPegFDndods4_pII"></script>
-</body>
+  <!-- STYLES -->
 
-<!-- Mirrored from www.atypicalthemes.com/portfolio/strider_demo/pages/StriderDark/Video/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Jul 2020 23:08:04 GMT -->
+  <!-- bootstrap 4  -->
+  <link rel="stylesheet" href="library/css/vendor/bootstrap.min.css">
+  <!-- fontawesome 5  -->
+  <link rel="stylesheet" href="library/css/all.min.css">
+  <!-- line-awesome webfont -->
+  <link rel="stylesheet" href="library/css/line-awesome.min.css">
+  <!-- custom select css -->
+  <link rel="stylesheet" href="library/css/vendor/nice-select.css">
+  <!-- animate css  -->
+  <link rel="stylesheet" href="library/css/vendor/animate.min.css">
+  <!-- lightcase css -->
+  <link rel="stylesheet" href="library/css/vendor/lightcase.css">
+  <!-- slick slider css -->
+  <link rel="stylesheet" href="library/css/vendor/slick.css">
+  <!-- style main css -->
+  <link rel="stylesheet" href="library/css/main.css">
+</head>
+  <body>
+
+    <!-- prealoader start  -->
+    <div class="preloader">
+      <div class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+    <!-- prealoader end -->
+
+  <!-- scroll-to-top start -->
+  <div class="scroll-to-top">
+    <span class="scroll-icon">
+      <i class="las la-arrow-up"></i>
+    </span>
+  </div>
+  <!-- scroll-to-top end -->
+  <!-- page-wrapper start -->
+  <div class="page-wrapper">
+      <!-- login modal -->
+  <div class="modal fade" id="loginModal" tabindex="1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content bg-transparent">
+        <div class="modal-body">
+          <div class="account-area">
+            <h3 class="title mb-4">Welcome to Ophela</h3>
+            <form class="account-form">
+              <div class="form-group">
+                <label>Your Email </label>
+                <input type="email" name="login_email" placeholder="Enter Your Email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Password </label>
+                <input type="password" name="login_email" placeholder="Enter Your Password" class="form-control">
+              </div>
+              <div class="form-group">
+                <p>Forgot your password? <a href="#0">recover password</a></p>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="cmn-btn">Sign IN</button>
+              </div>
+            </form>
+            <div class="or-devider mt-5"><span>OR</span></div>
+            <div class="text-center mt-4">
+              <p>Sign up with your work email</p>
+              <a href="#0" class="google-btn mt-4 mb-3"><img src="library/images/icon/google.png" alt="image">Sign Up with Google</a>
+              <p>Don't have an account? <a href="#0" data-dismiss="modal" data-toggle="modal" data-target="#signupModal">Sign up here</a></p>
+            </div>
+          </div><!-- account-area end -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign Up modal -->
+  <div class="modal fade" id="signupModal" tabindex="1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content bg-transparent">
+        <div class="modal-body">
+          <div class="account-area">
+            <h3 class="title mb-4">Let's get started</h3>
+            <div class="text-center mt-4">
+              <a href="#0" class="google-btn mt-4 mb-3"><img src="library/images/icon/google.png" alt="image">Sign Up with Google</a>
+            </div>
+            <div class="or-devider mt-4"><span>OR</span></div>
+            <p class="text-center mt-2 mb-4">Sign up with your work email</p>
+            <form class="account-form">
+              <div class="form-group">
+                <label>Your Email </label>
+                <input type="email" name="login_email" placeholder="Enter Your Email" class="form-control">
+              </div>
+              <div class="text-center">
+                <button type="submit" class="cmn-btn">Try It Now</button>
+              </div>
+            </form>
+            <p class="text-center mt-3">Already have an account?<a href="#0" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">Sign In</a></p>
+          </div><!-- account-area end -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- header-section start  -->
+  <header class="header">
+    <div class="header__bottom">
+      <div class="container">
+        <nav class="navbar navbar-expand-xl align-items-center">
+          <a class="site-logo site-title" href="index.html"><img src="library/images/logo.png" alt="site-logo"><span class="logo-icon"><i class="flaticon-fire"></i></span></a>
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="menu-toggle"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav main-menu ml-auto">
+              <li class="menu_has_children">
+                <a href="#0">Home</a>
+                <ul class="sub-menu">
+                  <li><a href="index.html">Home One</a></li>
+                  <li><a href="index-two.html">Home Two</a></li>
+                </ul>
+              </li>
+              <li class="menu_has_children">
+                <a href="#0">Games</a>
+                <ul class="sub-menu">
+                  <li><a href="games.html">All Games</a></li>
+                  <li><a href="game-details.html">Game Details</a></li>
+                </ul>
+              </li>
+              <li class="menu_has_children">
+                <a href="#0">Blog</a>
+                <ul class="sub-menu">
+                  <li><a href="blog-one.html">Blog One</a></li>
+                  <li><a href="blog-two.html">Blog Two</a></li>
+                  <li><a href="blog-details.html">Blog Details</a></li>
+                </ul>
+              </li>
+              <li class="menu_has_children">
+                <a href="#0">pages</a>
+                <ul class="sub-menu">
+                  <li><a href="about.html">About Us</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+            <div class="nav-right">
+              <a href="#0" data-toggle="modal" data-target="#loginModal">join now</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div><!-- header__bottom end -->
+  </header>
+  <!-- header-section end  -->
+
+    <!-- hero section start -->
+    <section class="hero bg_img" data-background="library/images/bg/hero.jpg">
+      <div class="hero__shape">
+        <img src="library/images/elements/hero/shape-2.png" alt="image">
+      </div>
+      <div class="el-1"><img src="library/images/elements/hero/el-1.png" alt="image"></div>
+      <div class="el-2"><img src="library/images/elements/hero/el-2.png" alt="image"></div>
+      <div class="el-3"><img src="library/images/elements/hero/el-3.png" alt="image"></div>
+      <div class="el-4"><img src="library/images/elements/hero/el-4.png" alt="image"></div>
+      <div class="el-5"><img src="library/images/elements/hero/el-5.png" alt="image"></div>
+      <div class="el-6"><img src="library/images/elements/hero/el-6.png" alt="image"></div>
+      <div class="el-7"><img src="library/images/elements/hero/el-7.png" alt="image"></div>
+      <div class="el-8"><img src="library/images/elements/hero/el-8.png" alt="image"></div>
+      <div class="el-9"><img src="library/images/elements/hero/el-9.png" alt="image"></div>
+      <div class="el-10"><img src="library/images/elements/hero/el-10.png" alt="image"></div>
+      <div class="el-11"><img src="library/images/elements/hero/el-11.png" alt="image"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="hero__content">
+              <span class="hero__sub-title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">GAME STUDIOS</span>
+              <h2 class="hero__title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">The Future Of Gaming</h2>
+              <p class=" wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.7s">Our games entertain millions of people every day, everywhere</p>
+              <a href="games.html" class="cmn-btn wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">play now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- game section start -->
+    <section class="pt-120 pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="section-header text-center has--bg">
+              <div class="header-image"><img src="library/images/elements/header-el.png" alt="image"></div>
+              <h2 class="section-title">Top Games</h2>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row mb-none-40">
+          <div class="col-lg-12 mb-40 single-game">
+            <div class="game-card style--two">
+              <div class="game-card__content wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.7s">
+                <div class="game-card__details">
+                  <div class="game-card__info">
+                    <div class="thumb-wrapper">
+                      <div class="thumb"><img src="library/images/games/s1.jpg" alt="image"></div>
+                      <div class="game-card__ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.5)</span>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Tomb of Treasure</a></h3>
+                      <p>Fusce sit amet erat sagittis, finibus libero sit amet, aliquet erat. dolor.Duis luctus felis sit amet libero.</p>
+                      <a href="game-details.html" class="mt-3">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- game-card__content end -->
+              <div class="game-card__thumb wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                <img src="library/images/games/b1.jpg" alt="image">
+              </div>
+              <div class="game-card__footer wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">
+                <div class="left">
+                  <div class="thumb"><img src="library/images/games/m1.jpg" alt="image" class="w-100"></div>
+                  <div class="thumb"><img src="library/images/games/m2.jpg" alt="image" class="w-100"></div>
+                </div>
+                <div class="right">
+                  <div class="caption">DOWNLOAD NOW AT</div>
+                  <div class="apps-btn">
+                    <a href="#0"><img src="library/images/elements/apple-btn.png" alt="image"></a>
+                    <a href="#0"><img src="library/images/elements/google-btn.png" alt="image"></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- game-card end -->
+          </div><!-- single-game end -->
+          <div class="col-lg-12 mb-40 single-game">
+            <div class="game-card style--two">
+              <div class="game-card__content wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.7s">
+                <div class="game-card__details">
+                  <div class="game-card__info">
+                    <div class="thumb-wrapper">
+                      <div class="thumb"><img src="library/images/games/s2.jpg" alt="image"></div>
+                      <div class="game-card__ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.5)</span>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Gem Saviour Sword</a></h3>
+                      <p>Fusce sit amet erat sagittis, finibus libero sit amet, aliquet erat. dolor.Duis luctus felis sit amet libero.</p>
+                      <a href="game-details.html" class="mt-3">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- game-card__content end -->
+              <div class="game-card__thumb wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                <img src="library/images/games/b2.jpg" alt="image">
+              </div>
+              <div class="game-card__footer wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">
+                <div class="left">
+                  <div class="thumb"><img src="library/images/games/m3.jpg" alt="image" class="w-100"></div>
+                  <div class="thumb"><img src="library/images/games/m4.jpg" alt="image" class="w-100"></div>
+                </div>
+                <div class="right">
+                  <div class="caption">DOWNLOAD NOW AT</div>
+                  <div class="apps-btn">
+                    <a href="#0"><img src="library/images/elements/apple-btn.png" alt="image"></a>
+                    <a href="#0"><img src="library/images/elements/google-btn.png" alt="image"></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- game-card end -->
+          </div><!-- single-game end -->
+          <div class="col-lg-12 mb-40 single-game">
+            <div class="game-card style--two">
+              <div class="game-card__content wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.7s">
+                <div class="game-card__details">
+                  <div class="game-card__info">
+                    <div class="thumb-wrapper">
+                      <div class="thumb"><img src="library/images/games/s3.jpg" alt="image"></div>
+                      <div class="game-card__ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.5)</span>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Journey To The Wealth</a></h3>
+                      <p>Fusce sit amet erat sagittis, finibus libero sit amet, aliquet erat. dolor.Duis luctus felis sit amet libero.</p>
+                      <a href="game-details.html" class="mt-3">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- game-card__content end -->
+              <div class="game-card__thumb wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                <img src="library/images/games/b3.jpg" alt="image">
+              </div>
+              <div class="game-card__footer wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">
+                <div class="left">
+                  <div class="thumb"><img src="library/images/games/m5.jpg" alt="image" class="w-100"></div>
+                  <div class="thumb"><img src="library/images/games/m6.jpg" alt="image" class="w-100"></div>
+                </div>
+                <div class="right">
+                  <div class="caption">DOWNLOAD NOW AT</div>
+                  <div class="apps-btn">
+                    <a href="#0"><img src="library/images/elements/apple-btn.png" alt="image"></a>
+                    <a href="#0"><img src="library/images/elements/google-btn.png" alt="image"></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- game-card end -->
+          </div><!-- single-game end -->
+          <div class="col-lg-12 mb-40 single-game">
+            <div class="game-card style--two">
+              <div class="game-card__content wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.7s">
+                <div class="game-card__details">
+                  <div class="game-card__info">
+                    <div class="thumb-wrapper">
+                      <div class="thumb"><img src="library/images/games/s4.jpg" alt="image"></div>
+                      <div class="game-card__ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.5)</span>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Tomb of Treasure</a></h3>
+                      <p>Fusce sit amet erat sagittis, finibus libero sit amet, aliquet erat. dolor.Duis luctus felis sit amet libero.</p>
+                      <a href="game-details.html" class="mt-3">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- game-card__content end -->
+              <div class="game-card__thumb wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                <img src="library/images/games/b4.jpg" alt="image">
+              </div>
+              <div class="game-card__footer wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">
+                <div class="left">
+                  <div class="thumb"><img src="library/images/games/m1.jpg" alt="image" class="w-100"></div>
+                  <div class="thumb"><img src="library/images/games/m2.jpg" alt="image" class="w-100"></div>
+                </div>
+                <div class="right">
+                  <div class="caption">DOWNLOAD NOW AT</div>
+                  <div class="apps-btn">
+                    <a href="#0"><img src="library/images/elements/apple-btn.png" alt="image"></a>
+                    <a href="#0"><img src="library/images/elements/google-btn.png" alt="image"></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- game-card end -->
+          </div><!-- single-game end -->
+        </div>
+        <div class="row mt-50">
+          <div class="col-lg-12 text-center">
+            <a href="games.html" class="cmn-btn btn--lg">view all games</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- game section end -->
+    <!-- about section start -->
+    <section class=" pt-120 pb-120 position-relative overflow-hidden">
+      <div class="about-obj-1" data-paroller-factor="-0.08" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="library/images/elements/about-obj-1.png" alt="image"></div>
+      <div class="about-obj-2" data-paroller-factor="0.08" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="library/images/elements/about-obj-2.png" alt="image"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="about-content">
+              <div class="section-header has--bg">
+                <div class="header-image style--two"><img src="library/images/elements/header-el-2.png" alt="image"></div>
+                <h2 class="section-title">We Focus on Quality Entertainment</h2>
+              </div>
+              <p>Our main focus is to provide the best entertainment possible for our players. We place key emphasis on creating games that are of a high quality in every way possible. This means that we ensure that all our games themes are engaging, our features unique and captivating and our art, stunning and precise! We don’t cut corners and do whatever is necessary to offer a memorable gameplay experience.</p>
+              <a href="about.html" class="cmn-btn mt-5">learn more</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-lg-0 mt-4">
+            <div class="about-thumb">
+              <img src="library/images/elements/about-player.png" alt="image" class="image-1">
+              <img src="library/images/elements/about-phone.png" alt="image" class="image-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+      <!-- footer section start  -->
+  <footer class="footer-section bg_img" data-background="library/images/elements/footer.png">
+    <div class="container">
+      <div class="row footer-top mb-none-50">
+        <div class="col-lg-3 col-sm-6 mb-50">
+          <div class="footer-widget">
+            <h3 class="footer-widget__title">ABOUT</h3>
+            <ul class="short-links">
+              <li><a href="#0">About Us</a></li>
+              <li><a href="#0">Contact Us</a></li>
+              <li><a href="#0">Customer Reviews</a></li>
+              <li><a href="#0">Privacy Policy</a></li>
+            </ul>
+          </div><!-- footer-widget end -->
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-50">
+          <div class="footer-widget">
+            <h3 class="footer-widget__title">MY ACCOUNT</h3>
+            <ul class="short-links">
+              <li><a href="#0">Manage Your Account</a></li>
+              <li><a href="#0">Account Varification</a></li>
+              <li><a href="#0">Safety & Security</a></li>
+            </ul>
+          </div><!-- footer-widget end -->
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-50">
+          <div class="footer-widget">
+            <h3 class="footer-widget__title">HELP CENTER</h3>
+            <ul class="short-links">
+              <li><a href="#0">Help centre</a></li>
+              <li><a href="#0">FAQ</a></li>
+              <li><a href="#0">Quick Start Guide</a></li>
+              <li><a href="#0">Tutorials</a></li>
+            </ul>
+          </div><!-- footer-widget end -->
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-50">
+          <div class="footer-widget">
+            <h3 class="footer-widget__title">LEGAL INFO</h3>
+            <ul class="short-links">
+              <li><a href="#0">Security</a></li>
+              <li><a href="#0">Terms of Service</a></li>
+              <li><a href="#0">Become Affiliate</a></li>
+              <li><a href="#0">Complaints Policy</a></li>
+            </ul>
+          </div><!-- footer-widget end -->
+        </div>
+      </div><!-- footer-top end -->
+      <div class="row footer-bottom align-items-center">
+        <div class="col-lg-7 col-md-6 text-md-left text-center">
+          <p class="copy-right-text">Copyright © 2020.All Rights Reserved By <a href="#0">OPHELA</a></p>
+        </div>
+        <div class="col-lg-5 col-md-6 mt-md-0 mt-3">
+          <ul class="social-links justify-content-md-end justify-content-center">
+            <li><a href="#0"><i class="lab la-facebook-f"></i></a></li>
+            <li><a href="#0"><i class="lab la-twitter"></i></a></li>
+            <li><a href="#0"><i class="lab la-pinterest-p"></i></a></li>
+            <li><a href="#0"><i class="lab la-google-plus"></i></a></li>
+            <li><a href="#0"><i class="lab la-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
+  </div>
+  <!-- page-wrapper end -->
+  <!-- jQuery library -->
+  <script src="library/js/vendor/jquery-3.5.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="library/js/vendor/bootstrap.bundle.min.js"></script>
+  <!-- custom select js -->
+  <script src="library/js/vendor/jquery.nice-select.min.js"></script>
+  <!-- lightcase js -->
+  <script src="library/js/vendor/lightcase.js"></script>
+  <!-- wow js -->
+  <script src="library/js/vendor/wow.min.js"></script>
+  <!-- slick slider js -->
+  <script src="library/js/vendor/slick.min.js"></script>
+  <script src="library/js/vendor/TweenMax.min.js"></script>
+  <!-- contact js -->
+  <script src="library/js/contact.js"></script>
+  <script src="http://rexbd.net/html/sporcia/demo/library/js/vendor/jquery.paroller.min.js"></script>
+  <!-- custom js -->
+  <script src="library/js/app.js"></script>
+  </body>
 </html>
