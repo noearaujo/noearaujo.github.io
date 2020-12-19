@@ -13,6 +13,16 @@
     <meta name="description" content="Our dreams your game">
     <meta name="keywords" content="game, gaming, videogame, developer, steam, studio, team">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150111827-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-150111827-1');
+    </script>
+
     <!-- OG meta tags that improve the look of your post on social media -->
     <meta property="og:site_name" content="R13B - Games" /><!--website name-->
     <meta property="og:site" content="R13B" /> <!--website link-->
@@ -38,7 +48,6 @@
     <link rel="icon" type="image/ico" sizes="32x32" href="images/favicon/favicon.ico">
 
   <!-- STYLES -->
-
   <!-- bootstrap 4  -->
   <link rel="stylesheet" href="library/css/vendor/bootstrap.min.css">
   <!-- fontawesome 5  -->
@@ -55,6 +64,7 @@
   <link rel="stylesheet" href="library/css/vendor/slick.css">
   <!-- style main css -->
   <link rel="stylesheet" href="library/css/main.css">
+
 </head>
   <body>
 
@@ -144,26 +154,14 @@
     <div class="header__bottom">
       <div class="container">
         <nav class="navbar navbar-expand-xl align-items-center">
-          <a class="site-logo site-title" href="index.html"><img src="library/images/logo.png" alt="site-logo"><span class="logo-icon"><i class="flaticon-fire"></i></span></a>
+          <a class="site-logo site-title" href="https://r13b.com"><img src="library/images/logo.png" alt="site-logo"><span class="logo-icon"><i class="flaticon-fire"></i></span></a>
           <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="menu-toggle"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav main-menu ml-auto">
-              <li class="menu_has_children">
-                <a href="#0">Home</a>
-                <ul class="sub-menu">
-                  <li><a href="index.html">Home One</a></li>
-                  <li><a href="index-two.html">Home Two</a></li>
-                </ul>
-              </li>
-              <li class="menu_has_children">
-                <a href="#0">Games</a>
-                <ul class="sub-menu">
-                  <li><a href="games">All Games</a></li>
-                  <li><a href="games/my-pets-maze">Game Details</a></li>
-                </ul>
-              </li>
+              <li><a href="https://r13b.com">Home</a></li>
+              <li><a href="games">Games</a></li>
               <li class="menu_has_children">
                 <a href="#0">Blog</a>
                 <ul class="sub-menu">
@@ -172,13 +170,8 @@
                   <li><a href="blog-details.html">Blog Details</a></li>
                 </ul>
               </li>
-              <li class="menu_has_children">
-                <a href="#0">pages</a>
-                <ul class="sub-menu">
-                  <li><a href="about.html">About Us</a></li>
-                </ul>
-              </li>
-              <li><a href="contact.html">contact</a></li>
+	      <li><a href="about">About</a></li>
+              <li><a href="contact">contact</a></li>
             </ul>
           </div>
         </nav>
