@@ -57,7 +57,7 @@ body {
     margin: 0;
     font-weight: 400;
     position: relative;
-    background-color: #21222f;
+    background-color: #11132b;
     overflow-x: hidden !important;
 }
 
@@ -2973,7 +2973,7 @@ span.is-active:after {
 }
 
 .game-card__thumb {
-    border: 5px solid #620edf;
+    border: 5px solid #3d4058ff;
     box-shadow: 0px 10px 199px 0px rgba(26, 15, 63, 0.5);
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -2989,7 +2989,7 @@ span.is-active:after {
 
 .game-card__content {
     padding: 20px;
-    background-color: #5e72eb;
+    background-color: #3d4058ff;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
