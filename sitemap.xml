@@ -2,21 +2,5 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://r13b.com</loc>
-  </url>
-  <url>
-    <loc>https://r13b.com/games/</loc>
-  </url>
-  <url>
-    <loc>https://r13b.com/games/UM</loc>
-  </url>
-  <url>
-    <loc>https://r13b.com/about/</loc>
-  </url>
-  <url>
-    <loc>https://r13b.com/about/noe-araujo</loc>
-  </url>
-  <url>
-    <loc>https://r13b.com/about/pedro-fonseca</loc>
-  </url>
 </urlset>
 <!--<guid value="661dd051-573e-4104-b4f6-a01b4b74fc95" />-->
