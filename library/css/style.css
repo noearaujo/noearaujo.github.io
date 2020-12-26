@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+* {
+  font-family: "Abel", sans-serif;
+  box-sizing: border-box;
+  color: #f4f1de;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+}
+
+body{
+  background: #302840;
+  color: orange;
+}
+
+#home-page #banner {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 820px;
+  text-align: center;
+}
+
+#home-page #menu {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 820px;
+  text-align: center;
+}
+
+#home-page #menu .menu-item {
+  display: inline-block;
+  cursor: pointer
+}
+
+#home-page #menu .menu-item a{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 300ms ease;
+  cursor: pointer;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  font-size: 20px;
+  px; */
+}
+
+#home-page #menu .menu-item a:hover{
+  background-color: #e07a5f;
+  color: #302840;
+  font-weight: bold;
+}
+
+#home-page #footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#home-page #footer p{
+  color: #b5b4a3
+}
+
