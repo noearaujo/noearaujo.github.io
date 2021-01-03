@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Abel");
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css);
 * {
   font-family: "Abel", sans-serif;
   box-sizing: border-box;
@@ -32,13 +34,14 @@ body{
   text-align: center;
 }
 
-#home-page #menu .menu-item {
+#home-page #menu .menu-item, .top-menu-item {
   display: inline-block;
-  cursor: pointer
+  cursor: pointer;
 }
 
-#home-page #menu .menu-item a{
+#home-page #menu .menu-item a, .top-menu-item a{
   text-transform: uppercase;
+  color: #f4f1de;
   letter-spacing: 1px;
   display: inline-block;
   text-decoration: none;
@@ -50,23 +53,73 @@ body{
   padding: 5px 10px;
   margin: 0 5px;
   font-size: 20px;
-  px; */
 }
 
-#home-page #menu .menu-item a:hover{
+#home-page #menu .menu-item a:hover, .top-menu-item a:hover{
   background-color: #e07a5f;
   color: #302840;
   font-weight: bold;
 }
 
-#home-page #footer {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-#home-page #footer p{
+footer p{
   color: #b5b4a3
 }
 
+#game-content .top-menu {
+	align-items: center;
+	justify-content: center;
+}
+
+div.game-data p{
+    margin-bottom: 4px;
+	margin-top: 1.5%;
+}
+
+div.game-data span {
+	color: #9c96a9;
+}
+
+.buy-button, .game-buy-buttons {
+	display: inline-block;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.buy-button a {
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+	color: #f4f1de;
+    transition: all 300ms ease;
+    cursor: pointer;
+    background-color: #e07a5f;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 20px;
+}
+#gabout {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#gabout #collapseAbout.collapse:not(.show) {
+  display: block;
+  height: 3rem;
+  overflow: hidden;
+}
+
+#gabout #collapseAbout.collapsing {
+  height: 3rem;
+}
+
+#gabout a.collapsed::after {
+  content: '+ Show More';
+}
+
+#gabout a:not(.collapsed)::after {
+  content: '- Show Less';
+}
