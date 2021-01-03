@@ -101,25 +101,3 @@ div.game-data span {
     margin: 0 5px;
     font-size: 20px;
 }
-#gabout {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-#gabout #collapseAbout.collapse:not(.show) {
-  display: block;
-  height: 3rem;
-  overflow: hidden;
-}
-
-#gabout #collapseAbout.collapsing {
-  height: 3rem;
-}
-
-#gabout a.collapsed::after {
-  content: '+ Show More';
-}
-
-#gabout a:not(.collapsed)::after {
-  content: '- Show Less';
-}
