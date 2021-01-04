@@ -16,12 +16,12 @@ body{
   color: orange;
 }
 
-#home-page #menu .menu-item, .top-menu-item {
+.menu-item, .top-menu-item {
   display: inline-block;
   cursor: pointer;
 }
 
-#home-page #menu .menu-item a, .top-menu-item a{
+.menu-item a, .top-menu-item a{
   text-transform: uppercase;
   color: #f4f1de;
   letter-spacing: 1px;
@@ -37,13 +37,13 @@ body{
   font-size: 20px;
 }
 
-#home-page #menu .menu-item a:hover, .top-menu-item a:hover{
+.menu-item a:hover, .top-menu-item a:hover{
   background-color: #e07a5f;
   color: #302840;
   font-weight: bold;
 }
 
-footer p{
+footer div{
   color: #b5b4a3
 }
 
@@ -83,3 +83,6 @@ div.game-data span {
     margin: 0 5px;
     font-size: 20px;
 }
+
+
+div{border: 1px solid white;}
