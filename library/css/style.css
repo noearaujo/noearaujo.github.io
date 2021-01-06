@@ -44,7 +44,8 @@ body{
 }
 
 footer div{
-  color: #b5b4a3
+  color: #b5b4a3;
+  background: #302840;
 }
 
 #game-content .top-menu {
@@ -84,4 +85,8 @@ div.game-data span {
     font-size: 20px;
 }
 
-/*div{border: 1px solid white;}*/
+.honeypot-field {
+  display: none;
+}
+
+div{border: 1px solid white;}
