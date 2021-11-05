@@ -3,17 +3,17 @@
   "name": "The official website of the game development company R13B.",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "/favicon/icons-vector.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
     },
     {
-      "src": "logo192.png",
+      "src": "/favicon/android-icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "/favicon/chrome-icon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
