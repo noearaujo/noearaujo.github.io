@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/r13b-page/static/css/main.6e1218aa.chunk.css",
-    "main.js": "/r13b-page/static/js/main.38d1257b.chunk.js",
-    "main.js.map": "/r13b-page/static/js/main.38d1257b.chunk.js.map",
-    "runtime-main.js": "/r13b-page/static/js/runtime-main.19d963dc.js",
-    "runtime-main.js.map": "/r13b-page/static/js/runtime-main.19d963dc.js.map",
-    "static/js/2.8b8a8aa8.chunk.js": "/r13b-page/static/js/2.8b8a8aa8.chunk.js",
-    "static/js/2.8b8a8aa8.chunk.js.map": "/r13b-page/static/js/2.8b8a8aa8.chunk.js.map",
-    "static/js/3.03e7856c.chunk.js": "/r13b-page/static/js/3.03e7856c.chunk.js",
-    "static/js/3.03e7856c.chunk.js.map": "/r13b-page/static/js/3.03e7856c.chunk.js.map",
-    "index.html": "/r13b-page/index.html",
-    "static/css/main.6e1218aa.chunk.css.map": "/r13b-page/static/css/main.6e1218aa.chunk.css.map",
-    "static/js/2.8b8a8aa8.chunk.js.LICENSE.txt": "/r13b-page/static/js/2.8b8a8aa8.chunk.js.LICENSE.txt",
-    "static/media/logo.7554b249.svg": "/r13b-page/static/media/logo.7554b249.svg"
+    "main.css": "/noearaujo.github.io/static/css/main.6e1218aa.chunk.css",
+    "main.js": "/noearaujo.github.io/static/js/main.38d1257b.chunk.js",
+    "main.js.map": "/noearaujo.github.io/static/js/main.38d1257b.chunk.js.map",
+    "runtime-main.js": "/noearaujo.github.io/static/js/runtime-main.82b22d11.js",
+    "runtime-main.js.map": "/noearaujo.github.io/static/js/runtime-main.82b22d11.js.map",
+    "static/js/2.8b8a8aa8.chunk.js": "/noearaujo.github.io/static/js/2.8b8a8aa8.chunk.js",
+    "static/js/2.8b8a8aa8.chunk.js.map": "/noearaujo.github.io/static/js/2.8b8a8aa8.chunk.js.map",
+    "static/js/3.03e7856c.chunk.js": "/noearaujo.github.io/static/js/3.03e7856c.chunk.js",
+    "static/js/3.03e7856c.chunk.js.map": "/noearaujo.github.io/static/js/3.03e7856c.chunk.js.map",
+    "index.html": "/noearaujo.github.io/index.html",
+    "static/css/main.6e1218aa.chunk.css.map": "/noearaujo.github.io/static/css/main.6e1218aa.chunk.css.map",
+    "static/js/2.8b8a8aa8.chunk.js.LICENSE.txt": "/noearaujo.github.io/static/js/2.8b8a8aa8.chunk.js.LICENSE.txt",
+    "static/media/logo.7554b249.svg": "/noearaujo.github.io/static/media/logo.7554b249.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19d963dc.js",
+    "static/js/runtime-main.82b22d11.js",
     "static/js/2.8b8a8aa8.chunk.js",
     "static/css/main.6e1218aa.chunk.css",
     "static/js/main.38d1257b.chunk.js"
