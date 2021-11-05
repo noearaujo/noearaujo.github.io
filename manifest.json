@@ -1,11 +1,17 @@
 {
   "short_name": "R13B",
-  "name": "The official website of the game development company R13B.",
+  "name": "R13B",
   "icons": [
     {
       "src": "/favicon/icon-vector.svg",
       "type": "image/svg+xml",
       "sizes": "512x512"
+    },
+    {
+      "src": "/favicon/android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
     },
     {
       "src": "/favicon/android-icon-192x192.png",
